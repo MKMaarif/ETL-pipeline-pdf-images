@@ -125,9 +125,3 @@ Feel free to submit issues or pull requests for improvements!
 
 📧 Contact: [mk.maarif29@gmail.com](mailto:mk.maarif29@gmail.com)
 ```
-
-
----
-
-### 🚀 Now Your Project is Fully Documented!
-Let me know if you want any tweaks before finalizing! 📜🔥
