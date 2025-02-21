@@ -124,4 +124,3 @@ http://localhost:8501
 Feel free to submit issues or pull requests for improvements!
 
 📧 Contact: [mk.maarif29@gmail.com](mailto:mk.maarif29@gmail.com)
-```
