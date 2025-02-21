@@ -6,7 +6,7 @@
 
 # ETL Pipeline for Document Processing
 
-This fully functioned UI ETL pipeline extracts text, tables, and figures from PDFs and images using OCR and machine learning. The processed data can be edited, saved, and queried in a database.
+This fully functional UI ETL pipeline extracts text, tables, and figures from PDFs and images using OCR and machine learning. The processed data can be edited, saved, and queried in a database.
 
 ## 🚀 Features
 - 📄 Extract Text (OCR-based)
