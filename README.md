@@ -3,10 +3,10 @@
 ---
 
 #### 📌 README.md
-```markdown
+
 # ETL Pipeline for Document Processing
 
-This ETL pipeline extracts text, tables, and figures from PDFs and images using OCR and machine learning. The processed data can be edited, saved, and queried in a database.
+This fully functioned UI ETL pipeline extracts text, tables, and figures from PDFs and images using OCR and machine learning. The processed data can be edited, saved, and queried in a database.
 
 ## 🚀 Features
 - 📄 Extract Text (OCR-based)
@@ -24,7 +24,7 @@ This ETL pipeline extracts text, tables, and figures from PDFs and images using 
 ```bash
 git clone https://github.com/your-repository/ETL-pipeline-pdf-images.git
 cd ETL-pipeline
-```
+
 
 ### 2️⃣ Create a Virtual Environment (Recommended)
 ```bash
