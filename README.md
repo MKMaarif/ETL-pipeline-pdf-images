@@ -1,5 +1,4 @@
 ### README.md (Setup Instructions & Running Streamlit)
-This `README.md` provides installation instructions, setup steps, and how to run the Streamlit app.
 
 ---
 
@@ -124,18 +123,9 @@ http://localhost:8501
 ## 🤝 Contributing
 Feel free to submit issues or pull requests for improvements!
 
-📧 Contact: [your-email@example.com](mailto:your-email@example.com)
+📧 Contact: [mk.maarif29@gmail.com](mailto:mk.maarif29@gmail.com)
 ```
 
----
-
-### ✅ What This README Covers
-✅ Step-by-step setup (Cloning, Virtual Environment, Installing Dependencies)  
-✅ Tesseract OCR installation (With OS-specific instructions)  
-✅ Database setup (`initialize_db()`)  
-✅ Running the Streamlit App (`streamlit run app.py`)  
-✅ Folder Structure Overview  
-✅ Future Enhancements & Contribution Guidelines  
 
 ---
 
