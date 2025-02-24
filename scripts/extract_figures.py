@@ -1,7 +1,6 @@
 import pandas as pd
 import config.db_config as db
 import re
-import os
 
 # Read data from the CSV/Excel file
 def read_data(file_path, file_name):
@@ -65,13 +64,3 @@ def save_figure(figure_name, figure_df):
     name, df = process_figure_data(figure_name, figure_df)
     # create table
     db.create_table_from_df(name, df)
-
-
-
-# def delete_figure(figure_name):
-#     """Deletes the figure file."""
-#     csv_dest = f"upload/res/{figure_name}.csv"
-#     try:
-#         os.remove(csv_dest)
-#     except FileNotFoundError:
-#         pass

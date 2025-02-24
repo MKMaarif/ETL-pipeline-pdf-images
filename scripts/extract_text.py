@@ -1,12 +1,21 @@
+from dotenv import load_dotenv
+import os
 import cv2
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+import spacy.cli
 import re
 import spacy
-nlp = spacy.load("en_core_web_sm")
 import pandas as pd
-import numpy as np
 import config.db_config as db
+
+load_dotenv()
+
+# Set the path to the Tesseract executable
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+# Download the English model for spaCy
+spacy.cli.download("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm")
 
 # Extract text from the images
 def extract_text(pages):

@@ -1,11 +1,7 @@
 import streamlit as st
 import os
 import cv2
-import numpy as np
-import pandas as pd
-# from inference import get_model
 import functools
-from PIL import Image
 import time
 
 # Import custom scripts
@@ -18,11 +14,6 @@ import scripts.extract_figures as efigs
 
 print("Streamlit app running...")
 st.set_page_config(layout="wide")
-
-# Import the YOLOv11 model and load the pre-trained weights
-# MODEL_ID = 'tft-id-lmwzu/1'
-# ROBOFLOW_API_KEY = os.getenv("ROBOFLOW_API_KEY")
-# model = get_model(MODEL_ID, ROBOFLOW_API_KEY)
 
 # Folder structure setup
 BASE_DIR = "upload"

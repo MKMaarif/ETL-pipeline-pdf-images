@@ -3,9 +3,13 @@ import cv2
 import numpy as np
 import supervision as sv
 from ultralytics import YOLO
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # load the YOLO11 model
-model = YOLO("model/yolo11_best.pt")
+model = YOLO(os.getenv("YOLO_MODEL_PATH"))
 
 # Function to save uploaded file
 def save_uploaded_file(uploaded_file, save_path):
