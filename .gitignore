@@ -1,3 +1,6 @@
+/config/__pycache__
+/scripts/__pycache__
+/upload
 /.venv
 /.vscode
 .env
