@@ -1,4 +1,6 @@
-OPENAI_API_KEY = "your_openai_api_key"
+OPENAI_API_KEY = "your-api-key"
+YOLO_MODEL_PATH = models/yolo11_best.pt
+TESSERACT_OCR_PATH = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 DB_HOST = "localhost"
 DB_PORT = 5432
