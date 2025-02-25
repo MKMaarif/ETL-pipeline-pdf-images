@@ -38,7 +38,12 @@ venv\Scripts\activate     # On Windows
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Install Tesseract OCR
+### 4️⃣ Install Spacy Model
+```bash
+python -m spacy download en_core_web_sm
+```
+
+### 5️⃣ Install Tesseract OCR
 The pipeline uses Tesseract OCR for text extraction. Install it based on your OS:
 
 - Windows: [Download from Tesseract's official site](https://github.com/UB-Mannheim/tesseract/wiki)
@@ -53,7 +58,7 @@ The pipeline uses Tesseract OCR for text extraction. Install it based on your OS
 
 > After installation, ensure Tesseract is in your system's PATH.
 
-### 5️⃣ Set Up Environment Variables
+### 6️⃣ Set Up Environment Variables
 Create a `.env` file inside the project directory and add your OpenAI API key, TesseractOCR local path, and configure database settings:
 
 ```env
