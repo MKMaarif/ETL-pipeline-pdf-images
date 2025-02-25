@@ -54,18 +54,18 @@ The pipeline uses Tesseract OCR for text extraction. Install it based on your OS
 > After installation, ensure Tesseract is in your system's PATH.
 
 ### 5️⃣ Set Up Environment Variables
-Create a `.env` file inside the project directory and configure database settings:
+Create a `.env` file inside the project directory and add your OpenAI API key, TesseractOCR local path, and configure database settings:
 
 ```env
-# PostgreSQL Database Config
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=your_username
-DB_PASSWORD=your_password
-DB_NAME=your_database
+OPENAI_API_KEY = "your-api-key"
+YOLO_MODEL_PATH = "model/yolo11_best.pt"
+TESSERACT_PATH = "C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-# YOLO Model Path
-YOLO_MODEL_PATH=models/yolo11_best.pt
+DB_HOST = "localhost"
+DB_PORT = 5432
+DB_USER = "postgres"
+DB_PASSWORD = "root"
+DB_NAME = "etl_db"
 ```
 
 ---
