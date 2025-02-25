@@ -14,7 +14,7 @@ load_dotenv()
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Download the English model for spaCy
-spacy.cli.download("en_core_web_sm")
+# spacy.cli.download("en_core_web_sm")
 nlp = spacy.load("en_core_web_sm")
 
 # Extract text from the images

@@ -15,6 +15,8 @@ import scripts.extract_figures as efigs
 print("Streamlit app running...")
 st.set_page_config(layout="wide")
 
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
 # Folder structure setup
 BASE_DIR = "upload"
 DIRECTORIES = ["files", "res", "img/pages", "img/annotated", "img/texts", "img/tables", "img/figures"]

@@ -55,8 +55,6 @@ def add_data_to_vector_store(filename, data):
         )
         documents.append(doc)
     
-    print(documents)
-
     doc_ids = [str(uuid4()) for _ in range(len(chunks))]
     vector_store.add_documents(documents=documents, ids=doc_ids)
     vector_store.save_local("faiss_vector_store")
